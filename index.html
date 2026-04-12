@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hello_World // I'm in - Premium Portfolio</title>
+  <meta name="description" content="Hello_World // I'm in - Developer Portfolio">
+  
+  <!-- Modern Font (Outfit & Inter) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Navigation -->
+  <nav class="top-nav">
+    <div class="logo">Dhriti<span>.</span></div>
+    <ul class="nav-links">
+      <li><a href="#splash" class="active">Home</a></li>
+      <li><a href="#intro">Intro</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Side Indicator -->
+  <div class="side-indicator">
+    <a href="#splash" class="dot active" data-slide="00"></a>
+    <a href="#intro" class="dot" data-slide="01"></a>
+    <a href="#about" class="dot" data-slide="02"></a>
+    <a href="#education" class="dot" data-slide="03"></a>
+    <a href="#skills" class="dot" data-slide="04"></a>
+    <a href="#projects" class="dot" data-slide="05"></a>
+    <a href="#achievements" class="dot" data-slide="06"></a>
+    <a href="#contact" class="dot" data-slide="07"></a>
+    <a href="#conclusion" class="dot" data-slide="08"></a>
+  </div>
+
+  <main class="container">
+    
+    <!-- 00: Splash -->
+    <section id="splash" class="slide">
+      <div class="slide-content" style="text-align: center;">
+        <div class="reveal-up" style="max-width: 800px; margin: 0 auto;">
+          <h2 style="font-family: var(--font-heading); color: var(--neon-cyan); margin-bottom: 1rem; letter-spacing: 2px;">Hello world I'm in</h2>
+          <h1 class="hero-title" style="font-size: clamp(3rem, 8vw, 7rem);">Dhriti Prasad</h1>
+          <div class="action-buttons" style="justify-content: center; margin-top: 3rem;">
+            <a href="#intro" class="btn btn-outline" style="padding: 1rem 3rem; font-size: 1.2rem;">Explore portfolio</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 01: Introduction -->
+    <section id="intro" class="slide">
+      <div class="slide-content" style="text-align: center;">
+        <div class="reveal-up" style="max-width: 800px; margin: 0 auto; padding: 3rem; background: rgba(10,10,10,0.6); border-radius: 20px; border: 1px solid rgba(255,255,255,0.1); backdrop-filter: blur(10px);">
+          <h1 class="hero-title" style="font-size: clamp(2.5rem, 5vw, 4.5rem);">Computer Science Student</h1>
+          <p class="hero-subtitle" style="margin: 0 auto 2rem auto; font-size: 1.4rem; color: var(--neon-cyan);">Driven by curiosity and code</p>
+          <div class="action-buttons" style="justify-content: center;">
+            <a href="#about" class="btn btn-outline">Read More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 02: About -->
+    <section id="about" class="slide">
+      <div class="slide-content dual-layout reverse">
+        <div class="text-column reveal-up">
+          <h1 class="hero-title">About Me</h1>
+          <div class="hero-subtitle" style="font-size: 1rem; color: #ccc;">
+            <p style="margin-bottom: 1rem;">I am a driven Computer Science student passionate about building technology that makes a real impact. I specialize in creating intelligent, efficient solutions across machine learning, data analysis, and backend development.</p>
+            <p style="margin-bottom: 1rem;">With a strong foundation in Python and Java, I focus on writing clean, purposeful code and turning complex problems into practical applications. Every project I build reflects my commitment to innovation, clarity, and continuous growth.</p>
+            <p>I don’t just aim to develop software—I aim to create solutions that matter.</p>
+          </div>
+          <a href="#education" class="btn btn-outline" style="margin-top: 1rem; display: inline-block;">Learn More</a>
+        </div>
+        <div class="image-column reveal-scale">
+          <div class="image-frame glow-blue" style="border-radius: 10px; overflow: hidden; max-height: 500px;">
+             <img src="./assets/about_me.jpg" alt="About Me" style="object-fit: cover; width: 100%; height: 100%;">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 03: Education -->
+    <section id="education" class="slide">
+      <div class="slide-content centered full-width reveal-up">
+        <h1 class="hero-title text-center">Education</h1>
+        <div class="timeline flex-row" style="align-items: stretch;">
+          <div class="timeline-card glow-border" style="flex: 1 1 300px;">
+            <h3 style="margin-bottom: 0.5rem; font-size: 1.2rem;">B.Tech in Computer Science and Engineering</h3>
+            <span class="highlight" style="display: block; margin-bottom: 0.5rem;">Institute of Engineering and Management, Kolkata</span>
+            <p>2023-27</p>
+          </div>
+          <div class="timeline-card glow-border" style="flex: 1 1 300px;">
+            <h3 style="margin-bottom: 0.5rem; font-size: 1.2rem;">XIIth - 90%</h3>
+            <span class="highlight" style="display: block; margin-bottom: 0.5rem;">Assembly of God Church School, Sodepur</span>
+            <p>2022-23</p>
+          </div>
+          <div class="timeline-card glow-border" style="flex: 1 1 300px;">
+            <h3 style="margin-bottom: 0.5rem; font-size: 1.2rem;">Xth - 92.2%</h3>
+            <span class="highlight" style="display: block; margin-bottom: 0.5rem;">Assembly of God Church School, Sodepur</span>
+            <p>2020-21</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 04: Skills -->
+    <section id="skills" class="slide">
+      <div class="slide-content dual-layout">
+        <div class="text-column reveal-up">
+          <h1 class="hero-title">Core Skills</h1>
+          <p class="hero-subtitle">Mastery over a modern tech stack allowing me to build fast, scalable, and beautifully designed web applications.</p>
+        </div>
+        <div class="skills-grid reveal-scale" style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
+          <!-- Column 1: Languages & Concepts -->
+          <div>
+            <h3 style="margin-bottom: 1rem; color: var(--neon-cyan);">Languages & Concepts</h3>
+            <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+              <div class="skill-item">JAVA <div class="bar-bg"><div class="bar-fill" style="width: 90%;"></div></div></div>
+              <div class="skill-item">SQL <div class="bar-bg"><div class="bar-fill" style="width: 85%;"></div></div></div>
+              <div class="skill-item">DSA & OOPs <div class="bar-bg"><div class="bar-fill" style="width: 85%;"></div></div></div>
+              <div class="skill-item">Machine Learning <div class="bar-bg"><div class="bar-fill" style="width: 80%;"></div></div></div>
+              <div class="skill-item">Data Analysis <div class="bar-bg"><div class="bar-fill" style="width: 80%;"></div></div></div>
+              <div class="skill-item">CyberSecurity Basics <div class="bar-bg"><div class="bar-fill" style="width: 70%;"></div></div></div>
+            </div>
+          </div>
+          <!-- Column 2: Tools & Platforms -->
+          <div>
+            <h3 style="margin-bottom: 1rem; color: var(--neon-purple);">Tools</h3>
+            <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+              <div class="skill-item">Power BI <div class="bar-bg"><div class="bar-fill" style="width: 85%;"></div></div></div>
+              <div class="skill-item">MS Excel (Analysis) <div class="bar-bg"><div class="bar-fill" style="width: 80%;"></div></div></div>
+              <div class="skill-item">OpenVAS <div class="bar-bg"><div class="bar-fill" style="width: 70%;"></div></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 05: Projects -->
+    <section id="projects" class="slide">
+      <div class="slide-content vertical-flow reveal-up">
+        <h1 class="hero-title text-center">Project Works</h1>
+        <div class="projects-carousel" style="flex-wrap: wrap;">
+          <div class="project-card glow-border" style="flex: 1 1 300px;">
+            <div class="project-img" style="height: 200px;"><img src="./assets/proj_agrismart.png" alt="AgriSmart"></div>
+            <div class="project-info" style="padding: 1.5rem;">
+              <h3 style="color: var(--neon-cyan); margin-bottom: 0.5rem;">AgriSmart Pro</h3>
+              <p style="font-size: 0.9rem; margin-bottom: 1rem; color: #ccc;">A smart agriculture system analyzing farming/environmental data for crop insights and productivity.</p>
+              <p style="font-size: 0.85rem; font-weight: bold; margin-bottom: 1rem; color: #fff;">Tech: Python, Streamlit (ML Based)</p>
+              <a href="https://github.com/Dhritipd/AgriSmart-Pro" target="_blank" class="btn btn-outline" style="padding: 0.5rem 1.5rem; font-size: 0.9rem; display: inline-block;">Link</a>
+            </div>
+          </div>
+          <div class="project-card glow-border" style="flex: 1 1 300px;">
+            <div class="project-img" style="height: 200px;"><img src="./assets/proj_genofy.png" alt="Genofy"></div>
+            <div class="project-info" style="padding: 1.5rem;">
+              <h3 style="color: var(--neon-purple); margin-bottom: 0.5rem;">Genofy</h3>
+              <p style="font-size: 0.9rem; margin-bottom: 1rem; color: #ccc;">Cutting-edge AI predicting genome influences on health risks via intuitive visualizations & analytics.</p>
+              <p style="font-size: 0.85rem; font-weight: bold; margin-bottom: 1rem; color: #fff;">Tech: Python, Streamlit (ML+DSA)</p>
+              <a href="https://github.com/Dhritipd/NN1" target="_blank" class="btn btn-outline" style="padding: 0.5rem 1.5rem; font-size: 0.9rem; display: inline-block;">Link</a>
+            </div>
+          </div>
+          <div class="project-card glow-border" style="flex: 1 1 300px;">
+            <div class="project-img" style="height: 200px;"><img src="./assets/proj_fakenews.png" alt="Fake News Detection"></div>
+            <div class="project-info" style="padding: 1.5rem;">
+              <h3 style="color: var(--neon-cyan); margin-bottom: 0.5rem;">Fake News Detection</h3>
+              <p style="font-size: 0.9rem; margin-bottom: 1rem; color: #ccc;">Web-based system utilizing NLP & ML to classify news articles or URLs as authentic or fake.</p>
+              <p style="font-size: 0.85rem; font-weight: bold; margin-bottom: 1rem; color: #fff;">Tech: NLP, Machine Learning</p>
+              <a href="https://github.com/Dhritipd/Fake-news-detection-system.git" target="_blank" class="btn btn-outline" style="padding: 0.5rem 1.5rem; font-size: 0.9rem; display: inline-block;">Link</a>
+            </div>
+          </div>
+          <div class="project-card glow-border" style="flex: 1 1 300px;">
+            <div class="project-img" style="height: 200px;"><img src="./assets/proj_logsentinel.png" alt="LogSentinel" style="width: 100%; height: 100%; object-fit: cover;"></div>
+            <div class="project-info" style="padding: 1.5rem;">
+              <h3 style="color: var(--neon-purple); margin-bottom: 0.5rem;">LogSentinel</h3>
+              <p style="font-size: 0.9rem; margin-bottom: 1rem; color: #ccc;">Python-based cybersecurity tool analyzing Linux auth logs to detect brute-force/credential attacks via interactive dashboard.</p>
+              <p style="font-size: 0.85rem; font-weight: bold; margin-bottom: 1rem; color: #fff;">Tech: Python, Cybersecurity</p>
+              <a href="https://github.com/Dhritipd/LogSentinel" target="_blank" class="btn btn-outline" style="padding: 0.5rem 1.5rem; font-size: 0.9rem; display: inline-block;">Link</a>
+            </div>
+          </div>
+          <div class="project-card glow-border" style="flex: 1 1 300px;">
+            <div class="project-img" style="height: 200px;"><img src="./assets/proj_salesanalysis.png" alt="Sales Analysis" style="width: 100%; height: 100%; object-fit: cover;"></div>
+            <div class="project-info" style="padding: 1.5rem;">
+              <h3 style="color: var(--neon-cyan); margin-bottom: 0.5rem;">Sales Analysis</h3>
+              <p style="font-size: 0.9rem; margin-bottom: 1rem; color: #ccc;">Python/Pandas system extracting insights, segmenting customers, and mapping sales trends from Superstore data using visual libraries.</p>
+              <p style="font-size: 0.85rem; font-weight: bold; margin-bottom: 1rem; color: #fff;">Tech: Python, Pandas, Matplotlib</p>
+              <a href="https://github.com/Dhritipd/Sales-Analysis-main" target="_blank" class="btn btn-outline" style="padding: 0.5rem 1.5rem; font-size: 0.9rem; display: inline-block;">Link</a>
+            </div>
+          </div>
+          <div class="project-card glow-border" style="flex: 1 1 300px;">
+            <div class="project-img" style="height: 200px;"><img src="./assets/proj_darkweb.jpg" alt="Dark Web Monitoring" style="width: 100%; height: 100%; object-fit: cover;"></div>
+            <div class="project-info" style="padding: 1.5rem;">
+              <h3 style="color: var(--neon-purple); margin-bottom: 0.5rem;">Dark Web Monitoring System</h3>
+              <p style="font-size: 0.9rem; margin-bottom: 1rem; color: #ccc;">System fetching Tor-based hidden service data to analyze exposed sensitive info, proactively generating insights and early warnings for cybersecurity risks.</p>
+              <p style="font-size: 0.85rem; font-weight: bold; margin-bottom: 1rem; color: #fff;">Tech: Cybersecurity, Tor, Data Analysis</p>
+              <a href="https://github.com/Dhritipd/Dark-Web-Monitor" target="_blank" class="btn btn-outline" style="padding: 0.5rem 1.5rem; font-size: 0.9rem; display: inline-block;">Link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- 07: Achievements -->
+    <section id="achievements" class="slide">
+      <div class="slide-content centered full-width reveal-up">
+        <h1 class="hero-title text-center">Achievements</h1>
+        <div class="achievements-list reveal-scale" style="display: flex; flex-direction: column; gap: 2.5rem; max-width: 1000px; margin: 0 auto;">
+          <div class="glow-border" style="padding: 3rem; text-align: left; border-left: 5px solid var(--neon-cyan);">
+            <h2 style="color: var(--neon-cyan); margin-bottom: 1rem; font-size: 1.8rem;">PwC Leadership & Launchpad</h2>
+            <p style="font-size: 1.2rem; color: var(--text-main);">Qualified for PwC’s Women Leadership Program and launchpad program.</p>
+          </div>
+          <div class="glow-border" style="padding: 3rem; text-align: left; border-left: 5px solid var(--neon-purple);">
+            <h2 style="color: var(--neon-purple); margin-bottom: 1rem; font-size: 1.8rem;">Hackathon Top 6 Finalist</h2>
+            <p style="font-size: 1.2rem; color: var(--text-main); margin-bottom: 1.5rem;">Recognized as Top 6 finalist in the Hack Among Us Hackathon organized by Heritage Institute of Technology (HIT).</p>
+            <a href="https://github.com/Dhritipd/KolKata-Rail" target="_blank" class="btn btn-outline" style="padding: 0.5rem 1.5rem; font-size: 0.9rem; display: inline-block;">View Project</a>
+          </div>
+          <div class="glow-border" style="padding: 3rem; text-align: left; border-left: 5px solid var(--neon-cyan);">
+            <h2 style="color: var(--neon-cyan); margin-bottom: 1rem; font-size: 1.8rem;">LeetCode Problem Solver</h2>
+            <p style="font-size: 1.2rem; color: var(--text-main); margin-bottom: 1.5rem;">Solved 200+ problems on Leetcode.</p>
+            <div style="display: flex; gap: 2rem;">
+              <div style="border-radius: 12px; overflow: hidden; height: 120px; box-shadow: 0 0 15px rgba(255,255,255,0.1);"><img src="./assets/badge_1.png" alt="LeetCode Badge 1" style="height: 100%; object-fit: cover;"></div>
+              <div style="border-radius: 12px; overflow: hidden; height: 120px; box-shadow: 0 0 15px rgba(255,255,255,0.1);"><img src="./assets/badge_2.png" alt="LeetCode Badge 2" style="height: 100%; object-fit: cover;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 08: Contact -->
+    <section id="contact" class="slide">
+      <div class="slide-content reveal-up" style="max-width: 800px; margin: 0 auto;">
+        <div class="text-column" style="text-align: center;">
+          <h1 class="hero-title">Get in Touch</h1>
+          <div class="contact-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-top: 3rem;">
+            
+            <a href="tel:+919749550078" class="glow-border" style="display: flex; flex-direction: column; align-items: center; padding: 2.5rem; text-align: center; transition: all 0.3s ease; text-decoration: none;">
+              <span style="font-size: 3rem; color: var(--neon-cyan); margin-bottom: 1rem; display: block;">📱</span>
+              <strong style="color: var(--neon-cyan); font-size: 1.2rem; margin-bottom: 0.5rem; display: block;">Phone</strong>
+              <p style="color: var(--text-main); font-size: 1.1rem;">+91 9749550078</p>
+            </a>
+
+            <a href="mailto:dhritipd@gmail.com" class="glow-border" style="display: flex; flex-direction: column; align-items: center; padding: 2.5rem; text-align: center; transition: all 0.3s ease; text-decoration: none;">
+              <span style="font-size: 3rem; color: var(--neon-purple); margin-bottom: 1rem; display: block;">✉️</span>
+              <strong style="color: var(--neon-purple); font-size: 1.2rem; margin-bottom: 0.5rem; display: block;">Email</strong>
+              <p style="color: var(--text-main); font-size: 1.1rem;">dhritipd@gmail.com</p>
+            </a>
+
+            <a href="https://github.com/Dhritipd" target="_blank" class="glow-border" style="display: flex; flex-direction: column; align-items: center; padding: 2.5rem; text-align: center; transition: all 0.3s ease; text-decoration: none;">
+              <span style="font-size: 3rem; color: var(--neon-purple); margin-bottom: 1rem; display: block;">💻</span>
+              <strong style="color: var(--neon-purple); font-size: 1.2rem; margin-bottom: 0.5rem; display: block;">GitHub</strong>
+              <p style="color: var(--text-main); font-size: 1.1rem;">github.com/Dhritipd</p>
+            </a>
+
+            <a href="https://leetcode.com/u/I2gYRUjjlb/" target="_blank" class="glow-border" style="display: flex; flex-direction: column; align-items: center; padding: 2.5rem; text-align: center; transition: all 0.3s ease; text-decoration: none;">
+              <span style="font-size: 3rem; color: var(--neon-cyan); margin-bottom: 1rem; display: block;">🏆</span>
+              <strong style="color: var(--neon-cyan); font-size: 1.2rem; margin-bottom: 0.5rem; display: block;">LeetCode</strong>
+              <p style="color: var(--text-main); font-size: 1.1rem;">I2gYRUjjlb</p>
+            </a>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 09: Conclusion -->
+    <section id="conclusion" class="slide">
+      <div class="slide-content centered full-width reveal-up">
+        <h1 class="hero-title">Thank You.</h1>
+        <p class="hero-subtitle max-w-md">The journey of creation never ends. I am always open to discussing new challenges and innovative ideas.</p>
+        <a href="#intro" class="btn btn-outline mt-2">Back to Top</a>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
